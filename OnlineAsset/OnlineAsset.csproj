@@ -68,10 +68,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="html\blogger\BlockChain-buy-coffee.html" />
     <Content Include="images\BC\btc.png" />
     <Content Include="images\BC\doge.png" />
     <Content Include="images\BC\eth.png" />
     <Content Include="images\BC\ltc.png" />
+    <Content Include="images\BC\ripple.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
