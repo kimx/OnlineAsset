@@ -21,6 +21,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -60,6 +61,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="kim-metro\fonts\metro.eot" />
+    <Content Include="kim-metro\fonts\metro.ttf" />
+    <Content Include="kim-metro\fonts\metro.woff" />
+    <Content Include="kim-metro\fonts\selection.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -74,6 +79,39 @@
     <Content Include="images\BC\eth.png" />
     <Content Include="images\BC\ltc.png" />
     <Content Include="images\BC\ripple.png" />
+    <Content Include="kim-metro\css\metro-icons.css" />
+    <Content Include="kim-metro\css\metro-icons.min.css" />
+    <Content Include="kim-metro\css\metro-responsive.css" />
+    <Content Include="kim-metro\css\metro-responsive.min.css" />
+    <Content Include="kim-metro\css\metro-rtl.css" />
+    <Content Include="kim-metro\css\metro-rtl.min.css" />
+    <Content Include="kim-metro\css\metro-schemes.css" />
+    <Content Include="kim-metro\css\metro-schemes.min.css" />
+    <Content Include="kim-metro\css\metro.css" />
+    <Content Include="kim-metro\css\metro.min.css" />
+    <Content Include="kim-metro\fonts\metro.svg" />
+    <Content Include="kim-metro\images\family-cube\1.jpg" />
+    <Content Include="kim-metro\images\family-cube\2.jpg" />
+    <Content Include="kim-metro\images\family-cube\3.jpg" />
+    <Content Include="kim-metro\images\family-cube\4.jpg" />
+    <Content Include="kim-metro\images\family-cube\5.jpg" />
+    <Content Include="kim-metro\images\family-wide\1.JPG" />
+    <Content Include="kim-metro\images\family-wide\2.JPG" />
+    <Content Include="kim-metro\images\family-wide\3.JPG" />
+    <Content Include="kim-metro\images\family-wide\4.jpg" />
+    <Content Include="kim-metro\images\family-wide\5.JPG" />
+    <Content Include="kim-metro\images\family-wide\about.JPG" />
+    <Content Include="kim-metro\images\mates\0.jpg" />
+    <Content Include="kim-metro\images\mates\1.JPG" />
+    <Content Include="kim-metro\images\mates\2.jpg" />
+    <Content Include="kim-metro\images\mates\3.JPG" />
+    <Content Include="kim-metro\images\mates\4.JPG" />
+    <Content Include="kim-metro\images\mates\5.JPG" />
+    <Content Include="kim-metro\images\mates\6.jpg" />
+    <Content Include="kim-metro\images\mind-128.png" />
+    <Content Include="kim-metro\js\metro-win-start-screen.js" />
+    <Content Include="kim-metro\js\metro.js" />
+    <Content Include="kim-metro\js\metro.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
