@@ -112,6 +112,7 @@
     <Content Include="kim-metro\js\metro-win-start-screen.js" />
     <Content Include="kim-metro\js\metro.js" />
     <Content Include="kim-metro\js\metro.min.js" />
+    <Content Include="readme.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
